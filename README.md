@@ -1,6 +1,10 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# RISC-V Mini Processor
+
+
+This project implements _RISC-V Mini_ by RickGao (https://github.com/RickGao/RISC-V-Mini), a compact 8-bit RISC-V processor core optimized for Tiny Tapeout, a fabrication platform for small-scale educational IC projects. The processor is based on a simplified version of the RISC-V architecture, utilizing a customized instruction set inspired by the RISC-V Compressed (RVC) instruction set. The design focuses on minimizing area and power, making it ideal for Tiny Tapeout’s educational IC fabrication platform. The CPU is implemented in Verilog and is designed to support basic computational, control-flow, and load/store operations efficiently.
+
 
 - [Read the documentation for project](docs/info.md)
 
